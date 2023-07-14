@@ -1,5 +1,9 @@
+import Hero from './Hero';
+
 const Main = ()=> (
-    <main></main>
+    <main>
+        <Hero/>
+    </main>
 )
 
 export default Main;

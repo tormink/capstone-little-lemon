@@ -1,0 +1,3 @@
+const PriceCard = ({img, children}) =>(
+
+);
