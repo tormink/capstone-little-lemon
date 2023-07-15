@@ -1,0 +1,12 @@
+.hero {
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap:20px;
+}
+.hero article {
+    grid-column: 3/7;
+}
+.hero aside {
+    grid-column: 7/11;
+    padding-left:25px;
+}

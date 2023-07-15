@@ -1,5 +1,0 @@
-const Specials = () => (
-    <section>
-        
-    </section>
-)
