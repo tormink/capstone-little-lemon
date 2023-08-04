@@ -1,13 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Markazi+Text:wght@400;500;700&display=swap');
+:root {
+  --black-text: #333333;
+  --white-text: #EDEFEE;
+  --gray-text: #495E57;
+  --primary-yellow: #F4CE14;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height:auto;
+}
+html {
+  font-size: 62.5%;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Karla', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--black-text);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Markazi Text', serif;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 6.4rem;
+  color: var(--primary-yellow);
+  font-weight: 400;
+  line-height: 62.5%;
+}
+
+h2 {
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 62.5%;
+}
+
+p, a {
+  font-size: 1.8rem;
+}
+a {
+  text-decoration: none;
+  color: var(--black-text);
+}
+a:visited {
+  text-decoration: none;
 }

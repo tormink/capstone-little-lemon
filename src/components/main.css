@@ -1,12 +1,80 @@
+main {}
+
 .hero {
-    display:grid;
+    max-height: 38.1rem;
+    padding: 0 7rem;
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap:20px;
+    gap: 2rem;
+    background-color: var(--gray-text);
 }
+
+.hero img {
+    height: 40.6rem;
+}
+
+.hero h2,
+.hero p {
+    color: var(--white-text);
+}
+
+.hero h2 {
+    font-size: 4rem;
+}
+
+.hero p {
+    margin:1.5rem 0;
+    font-size: 2rem;
+    line-height: 1;
+}
+
 .hero article {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     grid-column: 3/7;
+    max-height: 38.1rem;
 }
+
 .hero aside {
+    margin: 2rem;
     grid-column: 7/11;
-    padding-left:25px;
+}
+
+.hero img {
+    position: relative;
+}
+
+.specials {
+    padding: 0 29rem;
+    margin-top:8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.specials >h2 {
+}
+
+.specials>a {
+}
+
+.cards {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.specials .card {
+    grid-column-start: span 2;
+}
+
+.button-primary {
+    display: block;
+    background-color: var(--primary-yellow);
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 16px;
 }

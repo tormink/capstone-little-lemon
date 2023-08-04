@@ -1,0 +1,22 @@
+.card {
+    background-color: var(--white-text);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card div {
+    padding: 2rem;
+}
+.card img {
+    
+}
+.card h3 {
+    font-size: 2.4rem;
+}
+.card span {
+    font-size: 1.6rem;
+    font-family: 'Karla', sans-serif;
+    color: #EE9972;
+}
+.card p {
+    color: var(--gray-text);
+}
