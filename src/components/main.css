@@ -72,7 +72,6 @@ main {}
 }
 
 .button-primary {
-    display: block;
     background-color: var(--primary-yellow);
     padding: 1rem;
     font-weight: bold;

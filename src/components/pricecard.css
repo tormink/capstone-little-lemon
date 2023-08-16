@@ -2,21 +2,30 @@
     background-color: var(--white-text);
     border-radius: 16px;
     overflow: hidden;
+    display:flex;
+    flex-direction: column;
 }
 .card div {
     padding: 2rem;
+    height:auto;
 }
 .card img {
-    
+    max-height:18.5rem;
 }
 .card h3 {
+    display: inline;
     font-size: 2.4rem;
 }
 .card span {
+    float:right;
     font-size: 1.6rem;
     font-family: 'Karla', sans-serif;
     color: #EE9972;
 }
 .card p {
     color: var(--gray-text);
+}
+
+.card a {
+    font-weight: 500;
 }
