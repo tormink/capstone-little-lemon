@@ -4,6 +4,7 @@ import heroImg from './../assets/restaurantfood_.png';
 import greekSalad from './../assets/greek salad.jpg';
 import bruschetta from './../assets/bruchetta.svg';
 import lemonDessert from './../assets/lemon dessert.jpg';
+import { Link } from 'react-router-dom';
 
 
 const Main = () => (
@@ -14,7 +15,7 @@ const Main = () => (
                 <h2>Chicago</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="btn-container">
-                    <a className="button-primary" href="#">Reserve a table</a>
+                    <Link to='/booking' className='button-primary'>Reserve a table</Link>
                 </div>
             </article>
             <aside>

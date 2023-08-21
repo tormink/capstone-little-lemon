@@ -1,4 +1,6 @@
-main {}
+main {
+    font-size: 1.8rem;
+}
 
 .hero {
     max-height: 38.1rem;
