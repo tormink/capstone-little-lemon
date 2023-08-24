@@ -3,7 +3,7 @@ const FormField = ({ type = 'text', labelId, labelText, options = [], ...props }
         <label htmlFor={labelId}>{labelText}</label>
         {type === 'select' ?
             (<select id={labelId} {...props}>
-                {options.map(option => <option>{option}</option>)}
+                {options.map(option => <option key={option}>{option}</option>)}
             </select>) :
             <input type={type} id={labelId} {...props} />
         }
